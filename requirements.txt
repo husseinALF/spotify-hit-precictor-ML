@@ -1,0 +1,10 @@
+tensorflow
+scikit-learn
+pandas
+streamlit
+plotly
+joblib
+librosa
+imbalanced-learn
+matplotlib
+seaborn

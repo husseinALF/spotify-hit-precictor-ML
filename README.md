@@ -10,8 +10,7 @@ The idea for this project originated from a conversation with a music-producing 
 
 ![App Screenshot](screenshots/main.png)  
 ![App Screenshot](screenshots/result.png)  
-![App Screenshot](screenshots/more_result.png)  
-
+![App Screenshot](screenshots/more_result.png)
 
 ---
 
@@ -19,7 +18,7 @@ The idea for this project originated from a conversation with a music-producing 
 
 - **Deep Learning Model:** Uses a neural network built with TensorFlow/Keras to classify songs as "Hit" or "Flop".
 - **Real-time MP3 Analysis:** Upload an MP3 file and get an instant prediction.
-- **Audio Feature Extraction:** Leverages the `librosa` library to extract 9 key audio features, such as *Danceability*, *Energy*, and *Tempo*.
+- **Audio Feature Extraction:** Leverages the `librosa` library to extract 9 key audio features, such as _Danceability_, _Energy_, and _Tempo_.
 - **Interactive Visualization:** Results are presented with gauges, fun animations (balloons/snow), and advanced radar charts comparing your song to the profile of a typical hit/flop.
 - **Complete ML Evaluation:** Includes detailed model evaluation with a Confusion Matrix, Classification Report, and AUC-ROC curves.
 
@@ -27,16 +26,15 @@ The idea for this project originated from a conversation with a music-producing 
 
 ## 🛠️ Technology Stack
 
-- **Backend & Modeling:** Python, TensorFlow, Scikit-learn, Pandas  
-- **Audio Analysis:** Librosa  
-- **Web Interface:** Streamlit  
-- **Visualization:** Plotly, Matplotlib, Seaborn  
-- **Data Balancing:** Imbalanced-learn (for the SMOTE experiment)  
+- **Backend & Modeling:** Python, TensorFlow, Scikit-learn, Pandas
+- **Audio Analysis:** Librosa
+- **Web Interface:** Streamlit
+- **Visualization:** Plotly, Matplotlib, Seaborn
+- **Data Balancing:** Imbalanced-learn (for the SMOTE experiment)
 
 ---
 
 ## 📂 Project Structure
-
 
 ├── spotify_hit_predictor.h5 # The trained model
 ├── scaler.pkl # The saved StandardScaler object
@@ -56,11 +54,12 @@ The idea for this project originated from a conversation with a music-producing 
 ### 1. Prerequisites
 
 **Clone the repository:**
+
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 Download the dataset:
-Download the Spotify_Youtube.csv file from Kaggle and place it in the project’s root directory.
+Download the Spotify_Youtube.csv (https://www.kaggle.com/datasets/salvatorerastelli/spotify-and-youtube/data) file from Kaggle and place it in the project’s root directory.
 
 Install FFmpeg:
 Librosa requires FFmpeg to process MP3 files.
@@ -89,3 +88,4 @@ bash
 Kopiera kod
 streamlit run app_mp3.py
 Open your browser and navigate to the local URL shown in the terminal.
+```
