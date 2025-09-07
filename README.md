@@ -39,23 +39,14 @@ The idea for this project originated from a conversation with a music-producing 
 
 
 ├── spotify_hit_predictor.h5 # The trained model
-
 ├── scaler.pkl # The saved StandardScaler object
-
 ├── features.pkl # List of feature names
-
 ├── app_mp3.py # The Streamlit app for MP3 uploads
-
 ├── train_model.py # Script to train and evaluate the model
-
 ├── explore_data.py # Script for EDA and unsupervised learning analysis
-
 ├── feature_extractor.py # Function to extract audio features
-
 ├── Spotify_Youtube.csv # The original dataset
-
 ├── requirements.txt # Python dependencies
-
 └── README.md # This file
 
 ---
